@@ -2,8 +2,14 @@ import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
+function f() {
+  debugger;
+}
+
 function App() {
   const [count, setCount] = useState(0)
+
+  f();
 
   return (
     <div className="App">
